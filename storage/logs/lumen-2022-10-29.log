@@ -1,0 +1,28 @@
+[2022-10-29 14:22:19] local.ERROR: Cannot register two routes matching "/users" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/users\" for method \"GET\" at C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\DataGenerator\\RegexBasedAbstract.php:86)
+[stacktrace]
+#0 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\DataGenerator\\RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute('GET', Array, Array)
+#1 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute('GET', Array, Array)
+#2 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute('GET', '/users', Array)
+#3 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(FastRoute\\RouteCollector))
+#4 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(209): FastRoute\\simpleDispatcher(Object(Closure))
+#5 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\Users\\hanif\\Documents\\lumenapi\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2022-10-29 14:22:30] local.ERROR: Cannot register two routes matching "/users" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/users\" for method \"GET\" at C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\DataGenerator\\RegexBasedAbstract.php:86)
+[stacktrace]
+#0 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\DataGenerator\\RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute('GET', Array, Array)
+#1 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute('GET', Array, Array)
+#2 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute('GET', '/users', Array)
+#3 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\nikic\\fast-route\\src\\functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(FastRoute\\RouteCollector))
+#4 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(209): FastRoute\\simpleDispatcher(Object(Closure))
+#5 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#7 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#8 C:\\Users\\hanif\\Documents\\lumenapi\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#9 C:\\Users\\hanif\\Documents\\lumenapi\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
